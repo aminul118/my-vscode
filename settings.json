@@ -1,115 +1,132 @@
 {
-    "explorer.confirmDelete": false,
-    "files.autoSave": "afterDelay",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.codeActionsOnSave": {},
-    "workbench.startupEditor": "none",
-    "terminal.integrated.fontSize": 16,
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "git.openRepositoryInParentFolders": "never",
-    "editor.wordWrap": "on",
-    "cSpell.dictionaryDefinitions": [],
-    "terminal.integrated.automationProfile.windows": {}, 
-    "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
-  
-    //! Personal Edit
-    "workbench.colorCustomizations": {
-      "editorCursor.foreground": "#FF75D8", // cursor color
-      "terminalCursor.foreground": "#FF75D8", //  terminal cursor color
-      "activityBar.activeBorder": "#FF75D8"
-      // "sideBar.border":"#121418",
-      // "sideBar.foreground":"#c0c0cf",
-      // "sideBar.background":"#212329",
-      // "editor.background":"#282a3600", 
-    },
-    //! Better Comment Extension setting
-    "better-comments.multilineComments": true,
-    "better-comments.highlightPlainText": false,
-    "better-comments.tags": [
-      {
-        "tag": "!",
-        "color": "#FF75D8",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "#transparent",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "tag": "*",
-        "color": "#98C379",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "tag": "?",
-        "color": "#3498DB",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "tag": "//",
-        "color": "#474747",
-        "strikethrough": true,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": true
-      },
-      {
-        "tag": "todo",
-        "color": "#FF8C00",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      }
-     
-    ],
-  
-    "terminal.integrated.automationProfile.linux": {},  
-    "debug.javascript.terminalOptions": {},
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-    "liveServer.settings.ChromeDebuggingAttachment": false,
-    "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
-    "editor.fontVariations": false,
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.fontSize": 17,
-    "material-icon-theme.files.associations": {},
-    "codesnap.containerPadding": ".1em",
-    "terminal.integrated.automationProfile.osx": {}, 
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.cursorStyle": "line",
-    "json.schemas": [
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.codeActionsOnSave": {},
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontSize": 16,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.wordWrap": "on",
+  "cSpell.dictionaryDefinitions": [],
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+
+  //! Personal Edit
+  "workbench.colorCustomizations": {
+    "editor.background": "#1a1a1f", // Changes editor background
+    "editorCursor.foreground": "#FF75D8", // Changes cursor color
+    "terminalCursor.foreground":"#FF75D8", // Terminal Cursor
+    "activityBar.activeBorder": "#FF75D8",
+    "activityBar.border": "#17191f",
+    "sideBar.border": "#090a0c",
+    // "activityBar.background":"#040d2c",
+    "sideBar.background":"#1c263f4f",
+    "sideBarTitle.foreground":"#ffffff",
+    "sideBar.foreground":"#c5c0c0",
+    "tab.activeForeground":"#1fe0c3",
+    "tab.inactiveForeground":"#93989e",
+    "menu.background":"#2d313a",                //Menu Background
+    "menu.selectionBackground":"#44149e",
+    "statusBar.background":"#2249b4",
+  },
+
+    //! Comment italic code
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+        
     
-  
-    ],
-  
-  
-  
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      ]
     },
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.fontWeight": "normal",
-    "editor.cursorBlinking": "expand",
-    "editor.semanticTokenColorCustomizations": {},
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Andromeda Colorizer"
-  }
+
+  //! Better Comment Extension setting
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF75D8",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  "debug.javascript.terminalOptions": {},
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontVariations": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.fontSize": 16.5,
+  "material-icon-theme.files.associations": {},
+  "codesnap.containerPadding": ".1em",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cursorStyle": "line",
+  "json.schemas": [
   
+  ],
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontWeight": "normal",
+  "editor.cursorBlinking": "expand",
+  "editor.semanticTokenColorCustomizations": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Andromeda Italic"
+}
