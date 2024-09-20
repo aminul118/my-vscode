@@ -21,35 +21,37 @@
   "workbench.colorCustomizations": {
     "editor.background": "#1a1a1f", // Changes editor background
     "editorCursor.foreground": "#FF75D8", // Changes cursor color
-    "terminalCursor.foreground":"#FF75D8", // Terminal Cursor
-    "activityBar.activeBorder": "#FF75D8",
-    "activityBar.border": "#17191f",
+    // "editorGroupHeader.tabsBackground":"#1a1a1f",
+      "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
+    "tab.activeForeground": "#1fe0c3",
+    "tab.inactiveForeground": "#93989e",
+    "menu.background": "#212129", //Menu Background
+    "menu.selectionBackground": "#44149e",
+    "statusBar.background": "#2249b4",
+    // ! Side Bar
+    "sideBar.background": "#1a1a27",
+    "sideBarTitle.background": "#1a1a27",
+    "sideBarSectionHeader.background": "#1a1a27",
     "sideBar.border": "#090a0c",
-    // "activityBar.background":"#040d2c",
-    "sideBar.background":"#1c263f4f",
-    "sideBarTitle.foreground":"#ffffff",
-    "sideBar.foreground":"#c5c0c0",
-    "tab.activeForeground":"#1fe0c3",
-    "tab.inactiveForeground":"#93989e",
-    "menu.background":"#2d313a",                //Menu Background
-    "menu.selectionBackground":"#44149e",
-    "statusBar.background":"#2249b4",
+    "sideBarTitle.foreground": "#ffffff",
+    "sideBar.foreground": "#c5c0c0",
+    // ! Activity Bar
+    "activityBar.activeBorder": "#FF75D8",
+    // "activityBar.activeBackground": "#670e79"
+    // "activityBar.background": "#1a1a1f"
+    // "activityBar.border": "#6276b3",
   },
-
-    //! Comment italic code
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
+  //! Comment italic code
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
         }
-        
-    
-      ]
-    },
-
+      }
+    ]
+  },
   //! Better Comment Extension setting
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
@@ -100,11 +102,9 @@
       "italic": false
     }
   ],
-
   "debug.javascript.terminalOptions": {},
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "liveServer.settings.ChromeDebuggingAttachment": false,
-  "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontVariations": false,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -114,19 +114,16 @@
   "codesnap.containerPadding": ".1em",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
-  "json.schemas": [
-  
-  ],
+  "json.schemas": [],
 
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontWeight": "normal",
   "editor.cursorBlinking": "expand",
   "editor.semanticTokenColorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Italic"
+  "workbench.colorTheme": "Andromeda Italic",
+  "editor.fontFamily": " Operator Mono Lig,Fira Code, Consolas, 'Courier New', monospace"
 }
