@@ -16,7 +16,6 @@
   "editor.wordWrap": "on",
   "cSpell.dictionaryDefinitions": [],
   "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
-
   //! Editor settings
   "workbench.colorCustomizations": {
     "editor.background": "#1a1a1f", // This Background color is my Favorite
@@ -26,31 +25,39 @@
     "editorCursor.foreground": "#FF75D8", // Changes cursor color
     "editor.findMatchBorder": "#ff3c01",
     "editor.findMatchBackground": "#831717",
-
-    "terminal.background": "#15151a",
-    //  "terminal.foreground":"#882828",
-    "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
-    "tab.activeForeground": "#1fe0c3",
-    "tab.inactiveForeground": "#93989e",
-    // "editorGroupHeader.tabsBackground":"#1a1a1f",
-    // "tab.hoverBackground":"#010722",
-    // "tab.activeBackground":"#000207",
-
+    //! Tittle Bar or Top of the VS code
+    "titleBar.activeBackground": "#0d29465d",
+    "titleBar.activeForeground": "#ebe1e1",
     "menu.background": "#212129", //Menu Background
     "menu.selectionBackground": "#44149e",
-    "statusBar.background": "#2249b4",
+    // ! Tab
+    // "editorGroupHeader.tabsBackground": "#24245e",
+    "tab.activeBorder": "#4faaff",
+    "tab.activeForeground": "#83e6d7",
+    "tab.inactiveForeground": "#b7bbc0",
+    // "tab.hoverBackground":"#102270",
+    "tab.inactiveBackground": "#2d2d2d00",
+    "tab.activeBackground": "#00000000",
     // ! Side Bar
     "sideBar.background": "#1a1a27",
     "sideBarTitle.background": "#1a1a27",
     "sideBarSectionHeader.background": "#1a1a27",
-    "sideBar.border": "#090a0c",
+    // "sideBar.border": "#090a0c",
     "sideBarTitle.foreground": "#ffffff",
     "sideBar.foreground": "#c5c0c0",
+    "list.activeSelectionBackground": "#04395e",
+    "list.activeSelectionForeground": "#31f3b9",
     // ! Activity Bar
     "activityBar.activeBorder": "#FF75D8",
-    // "activityBar.background":"#23262e",
+    "activityBar.background": "#23262e",
     // "activityBar.activeBackground": "#670e79"
     // "activityBar.border": "#6276b3",
+    //! Bottom Bar of the VS code
+    "statusBar.background": "#0d29465d",
+    "statusBar.foreground": "#ebe1e1",
+    "terminal.background": "#15151a",
+    //  "terminal.foreground":"#882828",
+    "terminalCursor.foreground": "#FF75D8" // Terminal Cursor
   },
 
   //! Comment italic Vs code Default
