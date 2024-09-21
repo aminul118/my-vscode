@@ -17,14 +17,25 @@
   "cSpell.dictionaryDefinitions": [],
   "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
 
-  //! Personal Edit
+  //! Editor settings
   "workbench.colorCustomizations": {
-    "editor.background": "#1a1a1f", // Changes editor background
+    "editor.background": "#1a1a1f", // This Background color is my Favorite
+    // "editor.background":"#1a1622",   // Experimental Background color
+    "editor.lineHighlightBackground": "#2e323d",
+    "editor.selectionBackground": "#3d4352",
     "editorCursor.foreground": "#FF75D8", // Changes cursor color
-    // "editorGroupHeader.tabsBackground":"#1a1a1f",
-      "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
+    "editor.findMatchBorder": "#ff3c01",
+    "editor.findMatchBackground": "#831717",
+
+    "terminal.background": "#15151a",
+    //  "terminal.foreground":"#882828",
+    "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
     "tab.activeForeground": "#1fe0c3",
     "tab.inactiveForeground": "#93989e",
+    // "editorGroupHeader.tabsBackground":"#1a1a1f",
+    // "tab.hoverBackground":"#010722",
+    // "tab.activeBackground":"#000207",
+
     "menu.background": "#212129", //Menu Background
     "menu.selectionBackground": "#44149e",
     "statusBar.background": "#2249b4",
@@ -37,11 +48,12 @@
     "sideBar.foreground": "#c5c0c0",
     // ! Activity Bar
     "activityBar.activeBorder": "#FF75D8",
+    // "activityBar.background":"#23262e",
     // "activityBar.activeBackground": "#670e79"
-    // "activityBar.background": "#1a1a1f"
     // "activityBar.border": "#6276b3",
   },
-  //! Comment italic code
+
+  //! Comment italic Vs code Default
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -52,6 +64,7 @@
       }
     ]
   },
+
   //! Better Comment Extension setting
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
@@ -109,7 +122,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.fontSize": 16.5,
+  "editor.fontSize": 16.6,
   "material-icon-theme.files.associations": {},
   "codesnap.containerPadding": ".1em",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -124,6 +137,6 @@
   "editor.cursorBlinking": "expand",
   "editor.semanticTokenColorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Andromeda Italic",
-  "editor.fontFamily": " Operator Mono Lig,Fira Code, Consolas, 'Courier New', monospace"
+  "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Andromeda Italic" // Operator mono is my favorite font, secondary Fira code
 }
