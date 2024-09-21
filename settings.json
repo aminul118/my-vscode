@@ -30,14 +30,15 @@
     "titleBar.activeForeground": "#ebe1e1",
     "menu.background": "#212129", //Menu Background
     "menu.selectionBackground": "#44149e",
+    "menu.selectionForeground": "#ffffff",
     // ! Tab
     // "editorGroupHeader.tabsBackground": "#24245e",
-    "tab.activeBorder": "#4faaff",
+    "tab.activeBorder": "#83e6d7",
     "tab.activeForeground": "#83e6d7",
     "tab.inactiveForeground": "#b7bbc0",
     // "tab.hoverBackground":"#102270",
     "tab.inactiveBackground": "#2d2d2d00",
-    "tab.activeBackground": "#00000000",
+    "tab.activeBackground": "#14131300",
     // ! Side Bar
     "sideBar.background": "#1a1a27",
     "sideBarTitle.background": "#1a1a27",
