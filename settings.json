@@ -5,33 +5,49 @@
   "editor.codeActionsOnSave": {},
   "workbench.startupEditor": "none",
   "terminal.integrated.fontSize": 16,
+  //! Code Format
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "never",
-  "editor.wordWrap": "on",
   "cSpell.dictionaryDefinitions": [],
-  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
-
-  
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontFamily"
+  ],
   //!  Editor settings
   "workbench.colorCustomizations": {
-    "editor.background": "#1a1a1f", // This Background color is my Favorite
-    // "editor.background":"#1a1622",   // Experimental Background color
-    "editor.lineHighlightBackground": "#2e323d",
-    "editor.selectionBackground": "#3d4352",
-    "editorCursor.foreground": "#FF75D8", // Changes cursor color
+    // "editor.background": "#1a1a1f", // This Background color is my Favorite
+    // "editor.background": "#181616", // This Is secondary Favorite
+    // "editor.background": "#1d1d1d", // This Is Windows Default
+    "editor.background": "#15171b",  // Most Favorite
+   
+  
+
+
+    // "editor.foreground":"#ad9f9f",
+    "editor.foreground": "#bbbbbb", // Default
+    "editor.lineHighlightBackground": "#292c35",
+    "editorLineNumber.activeForeground": "#e4510e",
+    "editor.lineHighlightBorder": "#94350900",
+    "editor.selectionBackground": "#132d6d",
     "editor.findMatchBorder": "#ff3c01",
     "editor.findMatchBackground": "#831717",
     "editor.findMatchForeground": "#ac9e9e",
-    "minimap.background": "#1a1a1f00",
-   "scrollbarSlider.background": "#3d4352",    
-    "scrollbarSlider.activeBackground": "#44149e"     
-
+    // "scrollbarSlider.background": "#3d4352",
+    // "scrollbarSlider.activeBackground": "#44149e",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#fcba03",
+    // ! Cursor
+    "editorCursor.foreground": "#FF75D8",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontWeight": "normal",
+    "editor.cursorBlinking": "expand",
     //!  Tittle Bar or Top of the VS code
     "titleBar.activeBackground": "#0d29465d",
     "titleBar.activeForeground": "#ebe1e1",
@@ -63,27 +79,29 @@
     //!  Terminal Panel
     "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
     "panel.border": "#48494b",
-    "panel.background": "#141418",
+    // "panel.background": "#17181d", //Favorite one
+    // "panel.background":"#1e1c22",
+    "panel.background":"#1d1f25",
     "panelTitle.activeForeground": "#83e6d7",
     "panelTitle.activeBorder": "#83e6d7",
     "panelTitle.inactiveForeground": "#b7bbc0",
+    "terminal.foreground": "#cccccc",
     //!  Bottom Bar of the VS code
     "statusBar.background": "#0d29465d",
-    "statusBar.foreground": "#ebe1e1"
+    "statusBar.foreground": "#f5f0f0"
   },
-
   //!  Comment italic Vs code Default
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": "comment",
         "settings": {
-          "fontStyle": "italic"
+          "fontStyle": ""
+          // "foreground": "#6e5b5b"
         }
       }
     ]
   },
-
   //!  Better Comment Extension setting
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
@@ -138,26 +156,15 @@
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "liveServer.settings.ChromeDebuggingAttachment": false,
   "editor.fontVariations": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "editor.fontSize": 16.6,
   "material-icon-theme.files.associations": {},
-  "codesnap.containerPadding": ".1em",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
-  "json.schemas": [
-
-  ],
-
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontWeight": "normal",
-  "editor.cursorBlinking": "expand",
+  "json.schemas": [],
   "editor.semanticTokenColorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
-  "workbench.colorTheme": "Andromeda Italic" // Operator mono is my favorite font, secondary Fira code
+  "editor.fontLigatures": false,
+  "cSpell.language": "en,en-US",
+  "workbench.colorTheme": "Andromeda Italic"
 }
