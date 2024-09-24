@@ -13,27 +13,25 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "never",
   "cSpell.dictionaryDefinitions": [],
-  "workbench.settings.applyToAllProfiles": [
-    "editor.fontFamily"
-  ],
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
   //!  Editor settings
   "workbench.colorCustomizations": {
-    // "editor.background": "#1a1a1f", // This Background color is my Favorite
-    // "editor.background": "#181616", // This Is secondary Favorite
+    "editor.background": "#15171b", //! Most Favorite Background Color
+    // "editor.background": "#1a1a1f", // 2nd Favorite
+    // "editor.background": "#181616", // 3 rd Favorite Black Color
     // "editor.background": "#1d1d1d", // This Is Windows Default
-    "editor.background": "#15171b",  // Most Favorite
-   
-  
-
-
     // "editor.foreground":"#ad9f9f",
-    "editor.foreground": "#bbbbbb", // Default
+    "editor.foreground": "#bbbbbb", // Editor Text Default and my fav
+    // "editor.foreground": "#cccaca", // Editor Text
     "editor.lineHighlightBackground": "#292c35",
+
     "editorLineNumber.activeForeground": "#e4510e",
     "editor.lineHighlightBorder": "#94350900",
     "editor.selectionBackground": "#132d6d",
@@ -52,16 +50,18 @@
     "titleBar.activeBackground": "#0d29465d",
     "titleBar.activeForeground": "#ebe1e1",
     "menu.background": "#212129", //Menu Background
-    "menu.selectionBackground": "#44149e",
+    "menu.selectionBackground": "#04395e",
     "menu.selectionForeground": "#ffffff",
     //!  Tab
-    // "editorGroupHeader.tabsBackground": "#212129",
+    "editorGroupHeader.tabsBackground": "#212129",
     "tab.activeBorder": "#83e6d7",
     "tab.activeForeground": "#83e6d7",
     "tab.inactiveForeground": "#b7bbc0",
     // "tab.hoverBackground":"#102270",
+    "tab.hoverForeground": "#f3f3f1",
+    // "tab.hoverBorder": "#cecbcb",
     "tab.inactiveBackground": "#2d2d2d00",
-    "tab.activeBackground": "#14131300",
+    "tab.activeBackground": "#8f1c1c00",
     //!  Side Bar
     "sideBar.background": "#1a1a27",
     "sideBarTitle.background": "#1a1a27",
@@ -70,7 +70,10 @@
     "sideBarTitle.foreground": "#ffffff",
     "sideBar.foreground": "#c5c0c0",
     "list.activeSelectionBackground": "#04395e",
+    "list.focusAndSelectionOutline": "#04395e",
     "list.activeSelectionForeground": "#31f3b9",
+    "list.inactiveSelectionForeground": "#31f3b9",
+    "list.inactiveSelectionBackground": "#2d2d3a",
     //!  Activity Bar
     "activityBar.activeBorder": "#FF75D8",
     "activityBar.background": "#0d29465d",
@@ -81,14 +84,15 @@
     "panel.border": "#48494b",
     // "panel.background": "#17181d", //Favorite one
     // "panel.background":"#1e1c22",
-    "panel.background":"#1d1f25",
+    "panel.background": "#1d1f25",
     "panelTitle.activeForeground": "#83e6d7",
     "panelTitle.activeBorder": "#83e6d7",
     "panelTitle.inactiveForeground": "#b7bbc0",
     "terminal.foreground": "#cccccc",
     //!  Bottom Bar of the VS code
     "statusBar.background": "#0d29465d",
-    "statusBar.foreground": "#f5f0f0"
+    "statusBar.foreground": "#e6e4e4"
+    // "statusBar.border":"#a31c1c"
   },
   //!  Comment italic Vs code Default
   "editor.tokenColorCustomizations": {
@@ -166,5 +170,8 @@
   "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
   "cSpell.language": "en,en-US",
-  "workbench.colorTheme": "Andromeda Italic"
+  "workbench.colorTheme": "Andromeda Italic",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
