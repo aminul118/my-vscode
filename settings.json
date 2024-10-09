@@ -9,14 +9,7 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": true,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
+
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "never",
   "cSpell.dictionaryDefinitions": [],
@@ -24,28 +17,38 @@
   //!  Editor settings
   "workbench.colorCustomizations": {
     "editor.background": "#15171b", //! Most Favorite Background Color
+    // "editor.background": "#1b1d22", //! Most Favorite Background Color
     // "editor.background": "#1a1a1f", // 2nd Favorite
     // "editor.background": "#181616", // 3 rd Favorite Black Color
     // "editor.background": "#1d1d1d", // This Is Windows Default
+    // "editor.background": "#1b1b1b", // This Is Windows Default
     // "editor.foreground":"#ad9f9f",
-    "editor.foreground": "#bbbbbb", // Editor Text Default and my fav
-    // "editor.foreground": "#cccaca", // Editor Text
-    "editor.lineHighlightBackground": "#292c35",
+    // "editor.foreground": "#bbbbbb", // Editor Text Default and my fav
+    // "editor.background": "#1d2027",
+    // "editor.background": "#201f2c",
+    // "editor.background": "#2e303b",
 
-    "editorLineNumber.activeForeground": "#e4510e",
+    // "editor.foreground": "#cacaca", // Editor Text
+    "editor.foreground": "#e0dddd", // Editor Text
+
+    // "editor.lineHighlightBackground": "#292c35",
+
+    "editorLineNumber.activeForeground": "#ff0044",
     "editor.lineHighlightBorder": "#94350900",
     "editor.selectionBackground": "#132d6d",
     "editor.findMatchBorder": "#ff3c01",
     "editor.findMatchBackground": "#831717",
-    "editor.findMatchForeground": "#ac9e9e",
-    // "scrollbarSlider.background": "#3d4352",
-    // "scrollbarSlider.activeBackground": "#44149e",
+    "editor.findMatchForeground": "#fdfeff",
+    "selection.background": "#710933",
+    "scrollbarSlider.background": "#2a3c69",
+    "scrollbarSlider.activeBackground": "#4b505d",
+    "scrollbarSlider.hoverBackground": "default",
     "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#fcba03",
     // ! Cursor
     "editorCursor.foreground": "#FF75D8",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontWeight": "normal",
-    "editor.cursorBlinking": "expand",
+
     //!  Tittle Bar or Top of the VS code
     "titleBar.activeBackground": "#0d29465d",
     "titleBar.activeForeground": "#ebe1e1",
@@ -90,8 +93,9 @@
     "panelTitle.inactiveForeground": "#b7bbc0",
     "terminal.foreground": "#cccccc",
     //!  Bottom Bar of the VS code
-    "statusBar.background": "#0d29465d",
-    "statusBar.foreground": "#e6e4e4"
+    // "statusBar.background": "#0d29465d",
+    "statusBar.background": "#2a6fb9f9",
+    "statusBar.foreground": "#ffffff"
     // "statusBar.border":"#a31c1c"
   },
   //!  Comment italic Vs code Default
@@ -100,7 +104,7 @@
       {
         "scope": "comment",
         "settings": {
-          "fontStyle": ""
+          "fontStyle": "italic"
           // "foreground": "#6e5b5b"
         }
       }
@@ -160,18 +164,39 @@
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "liveServer.settings.ChromeDebuggingAttachment": false,
   "editor.fontVariations": false,
-  "editor.fontSize": 16.6,
+  "editor.fontSize": 18,
   "material-icon-theme.files.associations": {},
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
   "json.schemas": [],
   "editor.semanticTokenColorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": " Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
   "cSpell.language": "en,en-US",
+
+  "codesnap.containerPadding": ".1em",
+  "editor.cursorBlinking": "expand",
   "workbench.colorTheme": "Andromeda Italic",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "[html]": {
+    // "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
