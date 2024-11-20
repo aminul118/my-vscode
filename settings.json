@@ -9,7 +9,6 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "never",
   "cSpell.dictionaryDefinitions": [],
@@ -17,33 +16,24 @@
   //!  Editor settings
   "workbench.colorCustomizations": {
     "editor.background": "#15171b", //! Most Favorite Background Color
+    "editorIndentGuide.activeBackground1": "#FF75D8", //! Left side indicator when select any text
     // "editor.background": "#1b1d22", //! Most Favorite Background Color
     // "editor.background": "#1a1a1f", // 2nd Favorite
     // "editor.background": "#181616", // 3 rd Favorite Black Color
     // "editor.background": "#1d1d1d", // This Is Windows Default
     // "editor.background": "#1b1b1b", // This Is Windows Default
-    // "editor.foreground":"#ad9f9f",
     // "editor.foreground": "#bbbbbb", // Editor Text Default and my fav
-    // "editor.background": "#1d2027",
-    // "editor.background": "#201f2c",
-    // "editor.background": "#2e303b",
 
-    // "editor.foreground": "#cacaca", // Editor Text
-    "editor.foreground": "#e0dddd", // Editor Text
-
-    // "editor.lineHighlightBackground": "#292c35",
-
-    "editorLineNumber.activeForeground": "#ff0044",
+    "editor.foreground": "#e0dddd",
+    "breadcrumb.background": "#15171b",
+    "editorLineNumber.activeForeground": "#FF75D8",
     "editor.lineHighlightBorder": "#94350900",
-    "editor.selectionBackground": "#132d6d",
     "editor.findMatchBorder": "#ff3c01",
     "editor.findMatchBackground": "#831717",
     "editor.findMatchForeground": "#fdfeff",
     "selection.background": "#710933",
-    "scrollbarSlider.background": "#2a3c69",
-    "scrollbarSlider.activeBackground": "#4b505d",
-    "scrollbarSlider.hoverBackground": "default",
     "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#fcba03",
+
     // ! Cursor
     "editorCursor.foreground": "#FF75D8",
     "editor.cursorSmoothCaretAnimation": "on",
@@ -60,11 +50,10 @@
     "tab.activeBorder": "#83e6d7",
     "tab.activeForeground": "#83e6d7",
     "tab.inactiveForeground": "#b7bbc0",
-    // "tab.hoverBackground":"#102270",
     "tab.hoverForeground": "#f3f3f1",
-    // "tab.hoverBorder": "#cecbcb",
     "tab.inactiveBackground": "#2d2d2d00",
     "tab.activeBackground": "#8f1c1c00",
+    "tab.activeBorderTop": "default",
     //!  Side Bar
     "sideBar.background": "#1a1a27",
     "sideBarTitle.background": "#1a1a27",
@@ -80,24 +69,21 @@
     //!  Activity Bar
     "activityBar.activeBorder": "#FF75D8",
     "activityBar.background": "#0d29465d",
-    // "activityBar.activeBackground": "#670e79"
+    // "activityBar.activeBackground": "#670e79",
     // "activityBar.border": "#6276b3",
     //!  Terminal Panel
+    "panel.background": "#17181d", //Full Panel
+    "terminal.background": "#17181d",
     "terminalCursor.foreground": "#FF75D8", // Terminal Cursor
     "panel.border": "#48494b",
-    // "panel.background": "#17181d", //Favorite one
-    // "panel.background":"#1e1c22",
-    "panel.background": "#1d1f25",
     "panelTitle.activeForeground": "#83e6d7",
     "panelTitle.activeBorder": "#83e6d7",
     "panelTitle.inactiveForeground": "#b7bbc0",
     "terminal.foreground": "#cccccc",
     //!  Bottom Bar of the VS code
-    // "statusBar.background": "#0d29465d",
-    "statusBar.background": "#2a6fb9f9",
-    "statusBar.foreground": "#ffffff"
-    // "statusBar.border":"#a31c1c"
+    "statusBar.background": "#15181c"
   },
+
   //!  Comment italic Vs code Default
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -168,7 +154,9 @@
   "material-icon-theme.files.associations": {},
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorStyle": "line",
-  "json.schemas": [],
+  "json.schemas": [
+  
+  ],
   "editor.semanticTokenColorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
@@ -177,7 +165,7 @@
 
   "codesnap.containerPadding": ".1em",
   "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Andromeda Italic",
+  "workbench.colorTheme": "Dracula Theme Soft",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -187,7 +175,6 @@
   },
 
   "[html]": {
-    // "editor.defaultFormatter": "vscode.html-language-features"
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
@@ -197,6 +184,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
